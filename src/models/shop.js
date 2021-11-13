@@ -36,7 +36,7 @@ export default {
   },
   //异步函数
   effects:{
-    *addListSync({payload},{put,call}){
+    *addListSync({payload},{put}){
       yield put({
         type:"addList",
         payload:{
@@ -55,6 +55,14 @@ export default {
         })
         yield put({type:"setTopicsLoading"})
       }
+    }
+  },
+  subscriptions:{
+    getData({dispatch,history}){
+      console.log("subscriptions get data")
+      history.listen(({pathname})=>{
+
+      })
     }
   }
 }

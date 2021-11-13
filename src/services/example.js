@@ -8,3 +8,7 @@ const proxy = "/apis/"
 export function getTopics(){
   return request(`${proxy}/api/v1/topics`)
 }
+
+export function mockData(){
+  return request("/api/topics")
+}

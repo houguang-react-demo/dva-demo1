@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'dva';
+import * as apis from "../services/example";
 
 function IndexPage(props) {
 
@@ -27,6 +28,10 @@ function IndexPage(props) {
     })
   }
 
+  apis.mockData().then(res=>{
+    console.log("mock data",res)
+  })
+
   return (
     <div>
       <button onClick={addList}>addList</button>
@@ -35,7 +40,7 @@ function IndexPage(props) {
       <ul>
         {
           props.lists.map((item,index)=>(
-            <li key={index}><a href={item.link}>{item.title}</a></li>
+            <li key={index}><a href={item.link} target="_blank">{item.title}</a></li>
           ))
         }
       </ul>

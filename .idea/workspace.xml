@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a6aba86-942d-488b-b73c-2a7f8a2affba" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.roadhogrc.mock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.webpackrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadMe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/yay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Example.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/example.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/IndexPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/IndexPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/example.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="1a6aba86-942d-488b-b73c-2a7f8a2affba" name="变更" comment="mock请求数据">
+      <change afterPath="$PROJECT_DIR$/mock/mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.roadhogrc.mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/.roadhogrc.mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/IndexPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/IndexPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/example.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/example.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636810535443</updated>
-      <workItem from="1636810536667" duration="8257000" />
+      <workItem from="1636810536667" duration="9694000" />
     </task>
     <servers />
   </component>
@@ -87,5 +70,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mock请求数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="mock请求数据" />
   </component>
 </project>
